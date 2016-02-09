@@ -1,0 +1,20 @@
+package com.Pizzeria.testMain;
+
+import org.hibernate.Session;
+
+import com.Pizzeria.models.Candidature;
+import com.Pizzeria.persistence.HibernateUtil;
+
+public class TestM {
+
+	
+
+	public static void main(String[] args) {
+		
+		Candidature c = new Candidature(1, "sq", "d");
+		
+		
+
+	}
+
+}

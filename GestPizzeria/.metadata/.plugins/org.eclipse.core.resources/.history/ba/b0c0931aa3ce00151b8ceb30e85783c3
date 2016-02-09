@@ -1,0 +1,11 @@
+package test.Candidature;
+
+
+public class Candidat {
+
+	
+	public static void bef(){
+		
+	}
+	
+}

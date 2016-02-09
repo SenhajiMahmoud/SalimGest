@@ -5,7 +5,24 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2016-02-07T00:00:00Z</updated>
+  <updated>2016-02-09T10:02:42Z</updated>
+  <entry>
+    <title>Reactive Spring</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/02/09/reactive-spring" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Rossen Stoyanchev</name>
+    </author>
+    <id>tag:spring.io,2016-02-08:2371</id>
+    <updated>2016-02-09T10:02:42Z</updated>
+    <content type="html">&lt;p&gt;At SpringOne2GX 2015, Juergen &lt;a href="http://www.infoq.com/news/2015/09/spring-43-5"&gt;announced plans&lt;/a&gt; for Spring Framework 5 with a major focus on reactive architectures. Concrete efforts are already underway and a lot has happened since!&lt;/p&gt;
+&lt;p&gt;At the most basic level, reactive programming models allow for writing non-blocking services and applications. This requires a fundamental shift from writing imperative logic to async, non-blocking, functional-style code, in particular when interacting with external resources.&lt;/p&gt;&lt;h3&gt;&lt;a href="#reactive-web-applications" class="anchor" name="reactive-web-applications"&gt;&lt;/a&gt;Reactive Web Applications&lt;/h3&gt;
+&lt;p&gt;Most Java web applications are built on the Servlet API which was originally created with synchronous and blocking semantics. Over the years, support for asynchronous requests (Servlet 3.0) and non-blocking I/O (Servlet 3.1) was added. In Spring MVC, we&amp;rsquo;ve found that it is feasible to add selective async HTTP request handling to existing applications. However, we&amp;rsquo;ve also found that it is very hard to introduce non-blocking I/O within an existing ecosystem of web frameworks and applications. Doing so requires very deep change all the way to the core contracts which need to switch from blocking to async semantics.&lt;/p&gt;
+&lt;p&gt;One reason for the continued popularity of Spring MVC is its intuitive, annotation-based programming model based on flexible controller method signatures. Fortunately, the same can continue to serve as a foundation for reactive web applications. This is the direction for the &lt;a href="https://github.com/spring-projects/spring-reactive"&gt;Spring Reactive&lt;/a&gt; effort where you will find a &lt;a href="https://github.com/spring-projects/spring-reactive/blob/812f89b1b17e8261f1481ebaab0aef1e1e46722b/src/test/java/org/springframework/web/reactive/method/annotation/RequestMappingIntegrationTests.java#L464"&gt;TestController&lt;/a&gt; that looks like any Spring MVC controller but runs on a new reactive engine with integration tests against Tomcat, Jetty, Undertow, and Netty. Note that this project will get merged into the Spring Framework master branch shortly after the 4.3 release in May, in preparation for the 5.0 M1 release in June.&lt;/p&gt;&lt;h3&gt;&lt;a href="#reactive-foundation" class="anchor" name="reactive-foundation"&gt;&lt;/a&gt;Reactive Foundation&lt;/h3&gt;
+&lt;p&gt;A key ingredient to this effort is the &lt;a href="https://github.com/reactive-streams/reactive-streams-jvm/blob/v1.0.0/README.md#specification"&gt;Reactive Streams spec&lt;/a&gt; whose purpose is to provide a &lt;em&gt;&amp;ldquo;standard for asynchronous stream processing with non-blocking backpressure&amp;rdquo;&lt;/em&gt;. The spec enables interop among disparate async component providers: from HTTP servers to web frameworks, database drivers, etc. It will be included in JDK 9 as &lt;a href="http://download.java.net/jdk9/docs/api/java/util/concurrent/Flow.html"&gt;java.util.concurrent.Flow&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The spec is small and consists of 4 interfaces, some rules, and a TCK. To expose it as an API however requires infrastructure around it for composing asynchronous logic. Spring Reactive uses &lt;a href="https://github.com/reactor/reactor-core"&gt;Reactor Core&lt;/a&gt;, a small and focused library which serves as a foundation for libraries and frameworks that want to build on Reactive Streams. For those who may be familiar with &lt;a href="http://projectreactor.io/"&gt;Project Reactor&lt;/a&gt;, a lot has happened over the past 6-8 months leading up to this week&amp;rsquo;s release of Reactor Core 2.5 M1, which &lt;a href="https://twitter.com/smaldini"&gt;Stephane Maldini&lt;/a&gt; will provide a full update on soon. &lt;/p&gt;
+&lt;p&gt;Stay tuned for further blog posts on reactive programming from different Spring projects. Also, expect some reactive buzz at this year&amp;rsquo;s &lt;a href="http://www.springio.net/"&gt;Spring I/O&lt;/a&gt; conference in beautiful Barcelona!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Orchestrating Work with Activiti and Spring Integration</title>
     <link rel="alternate" href="https://spring.io/blog/2016/02/07/orchestrating-work-with-activiti-and-spring-integration" />
@@ -625,16 +642,5 @@ We will cover recent additions and improvements in Spring Data Commons - the mod
     <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2015&lt;br/&gt;Presenters: Sam Brannen &amp;amp; Nicolas Fränkel&lt;br/&gt;Core Spring Track&lt;br/&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/get-the-most-out-of-testing-with-spring-42-53128369"&gt;http://www.slideshare.net/SpringCentral/get-the-most-out-of-testing-with-spring-42-53128369&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Join Sam Brannen and Nicolas Fränkel to discover what&amp;rsquo;s new in Spring Framework 4.2&amp;rsquo;s testing support and learn tips and best practices for testing modern, Spring-based applications. Sam Brannen is the Spring Test component lead and author of the Spring TestContext Framework, and Nicolas Fränkel is the author of the book &amp;ldquo;Integration Testing from the Trenches&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;In this session, Sam and Nicolas will cover the latest testing features in Core Spring, Spring Boot, and Spring Security. In addition to new features, they will also present insider tips and best practices on integration testing with suites in TestNG, database transactions, SQL script execution, granularity of context configuration files, optimum use of the context cache, a discussion on TestNG vs. JUnit, and much more.&lt;br/&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/enDXm12nVPc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>SpringOne2GX 2015 replay: Spring XD today and tomorrow</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/01/18/springone2gx-2015-replay-spring-xd-today-and-tomorrow" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2016-01-18:2350</id>
-    <updated>2016-01-18T12:18:00Z</updated>
-    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2015&lt;br/&gt;Presenter: Mark Pollack&lt;br/&gt;Big Data Track&lt;br/&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/spring-xd-today-and-tomorrow"&gt;http://www.slideshare.net/SpringCentral/spring-xd-today-and-tomorrow&lt;/a&gt;&lt;br/&gt;In this talk we will cover the major new features added to Spring XD since last year as well as upcoming changes for the next major version. Key integrations driven by the Big Data ecosystem at large such as Kafka, Spark, functional programming, integration with Python, and designer/monitoring UIs will be introduced and demonstrated. The next major version of XD will shift to a foundation based on Cloud-Native architectural principles, where each individual module will be a standalone executable message-based microservice application based on Spring Boot. This allows us to more easily take advantage of Spring Boot and Spring Cloud functionality as well as map more natively onto runtime environments such as YARN, Lattice and Cloud Foundry.&lt;br/&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/NIBYST0z3sg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

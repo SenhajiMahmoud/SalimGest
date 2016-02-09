@@ -1,0 +1,22 @@
+package test.Candidature;
+
+import com.Pizzeria.models.Candidature;
+import com.Pizzeria.persistence.HibernateUtil;
+import com.Pizzeria.persistence.PersonneManager;
+
+public class Candidat {
+
+	
+	public static void bef(){
+		
+	}
+	
+	public void add(){
+		PersonneManager pm = new PersonneManager();
+		Candidature c = new Candidature(1, "aaa", "aa");
+		pm.ajout(c);
+		
+		HibernateUtil.sessionFactory.close();
+	}
+	
+}

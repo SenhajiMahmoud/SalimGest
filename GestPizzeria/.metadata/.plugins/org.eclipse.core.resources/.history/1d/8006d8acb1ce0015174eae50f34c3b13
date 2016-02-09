@@ -1,0 +1,17 @@
+package com.Pizzeria.persistence;
+
+
+import com.Pizzeria.business.DefaultServices;
+import com.Pizzeria.business.Services;
+import com.Pizzeria.models.Candidature;
+
+public class PersonneManager implements ServiceDAO{
+	
+	Services serv = new DefaultServices();
+
+	public void add(Candidature d) {
+		serv.Add(c);
+		
+	}
+
+}

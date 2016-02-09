@@ -1,0 +1,17 @@
+package test.Candidature;
+
+import com.Pizzeria.persistence.HibernateUtil;
+import com.Pizzeria.persistence.PersonneManager;
+
+public class Candidat {
+
+	
+	public static void bef(){
+		PersonneManager pm = new PersonneManager();
+		pm.ajout("Senhaji", "Mahmoud", "0666065573", "senhaji.mahmoud.mi@gmail.com");
+		pm.ajout("Mimid", "Mahmoud", "0666065573", "senhaji.mahmoud.mi@gmail.com");
+		pm.ajout("sss", "Mahmoud", "0666065573", "sema_ma@hotmail.fr");
+		HibernateUtil.sessionFactory.close();
+	}
+	
+}

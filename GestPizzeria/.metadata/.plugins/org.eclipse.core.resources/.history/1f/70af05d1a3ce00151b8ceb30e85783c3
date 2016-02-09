@@ -1,0 +1,30 @@
+package com.Pizzeria.business;
+
+
+import org.hibernate.Session;
+
+import com.Pizzeria.models.Candidature;
+import com.Pizzeria.persistence.HibernateUtil;
+
+public class DefaultServices implements Services{
+	
+private Session session;
+	
+	public public DefaultServices() {
+		session = HibernateUtil.getSessionFactory().getCurrentSession();
+	}
+
+		
+		session.beginTransaction();
+		
+		session.getTransaction().commit();
+		
+	
+	
+	
+	public void Add(Candidature candidat) {
+		
+		
+	}
+
+}

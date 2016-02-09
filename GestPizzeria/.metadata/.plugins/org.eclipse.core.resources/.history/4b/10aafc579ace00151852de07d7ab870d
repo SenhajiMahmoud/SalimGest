@@ -1,0 +1,8 @@
+package com.Pizzeria.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ProdController {
+	
+}
