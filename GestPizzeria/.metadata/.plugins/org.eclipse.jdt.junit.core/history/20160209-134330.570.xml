@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Candidat" project="GestPizz" tests="1" started="0" failures="0" errors="2" ignored="0">
+  <testsuite name="test.Candidature.Candidat" incomplete="true">
+    <error>java.lang.ExceptionInInitializerError&#13;
+	at com.Pizzeria.persistence.HibernateUtil.&lt;clinit&gt;(HibernateUtil.java:14)&#13;
+	at com.Pizzeria.business.DefaultServices.&lt;init&gt;(DefaultServices.java:16)&#13;
+	at com.Pizzeria.persistence.PersonneManager.&lt;init&gt;(PersonneManager.java:12)&#13;
+	at test.Candidature.Candidat.bef(Candidat.java:23)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+java.lang.NoClassDefFoundError: Could not initialize class com.Pizzeria.persistence.HibernateUtil&#13;
+	at test.Candidature.Candidat.aft(Candidat.java:36)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:37)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    <testcase name="add" classname="test.Candidature.Candidat" incomplete="true"/>
+  </testsuite>
+</testrun>

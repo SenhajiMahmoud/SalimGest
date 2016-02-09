@@ -1,0 +1,20 @@
+package com.Pizzeria.testMain;
+
+import com.Pizzeria.models.Candidature;
+import com.Pizzeria.persistence.PersonneManager;
+
+public class TestM {
+
+	
+
+	public static void main(String[] args) {
+		
+		Candidature c = new Candidature(1, "sq", "d");
+		
+		PersonneManager pm = new PersonneManager();
+		pm.taille("Personne");
+//		pm.add(c);
+
+	}
+
+}

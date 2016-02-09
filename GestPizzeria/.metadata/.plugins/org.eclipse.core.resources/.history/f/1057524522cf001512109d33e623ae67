@@ -1,0 +1,24 @@
+package test.Candidature;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.Pizzeria.models.Candidature;
+
+import com.Pizzeria.persistence.PersonneManager;
+
+public class Candidat {
+
+	private static Candidature c;
+
+	@BeforeClass
+	public void bef() {
+		c = new Candidature(1, "sq", "d");
+	}
+
+	@Test
+	public static void add() {
+		PersonneManager pm = new PersonneManager();
+		pm.add(c);
+	}
+}

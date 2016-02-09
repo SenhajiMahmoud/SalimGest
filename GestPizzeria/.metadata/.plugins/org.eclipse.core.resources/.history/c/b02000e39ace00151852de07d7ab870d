@@ -1,0 +1,22 @@
+package com.Pizzeria.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ProdController {
+	
+	
+	public ProdController() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@RequestMapping("/candidat")
+	public String inscription(){
+		System.out.println("ok");
+		
+		return "repinscrip";
+	}
+	
+}

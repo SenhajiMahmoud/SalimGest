@@ -1,0 +1,11 @@
+package test.Add.Candidature;
+
+
+public class CandidatAdd {
+
+	
+	public static void bef(){
+		
+	}
+	
+}

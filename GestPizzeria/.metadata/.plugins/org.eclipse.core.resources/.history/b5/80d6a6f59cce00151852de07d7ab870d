@@ -1,0 +1,18 @@
+package com.Pizzeria.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ProdController {
+	
+	
+	
+	@RequestMapping("/candidat")
+	public String inscription(){
+		System.out.println("ok");
+		
+		return "repinscrip";
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.Pizzeria.persistence;
+
+public interface ServiceDAO {
+
+}

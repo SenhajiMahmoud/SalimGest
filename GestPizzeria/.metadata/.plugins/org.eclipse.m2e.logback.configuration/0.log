@@ -1685,6 +1685,7 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2016-02-09 14:56:46,677 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2016-02-09 14:56:46,688 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-02-09 14:56:46,693 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
+<<<<<<< HEAD
 2016-02-09 15:04:59,404 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-02-09 15:04:59,409 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\main\resources
 2016-02-09 15:04:59,421 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
@@ -1705,3 +1706,5 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2016-02-09 15:05:15,013 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\main\resources
 2016-02-09 15:05:15,020 [Worker-157] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-02-09 15:05:15,025 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
+=======
+>>>>>>> mahmoud

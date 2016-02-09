@@ -1,0 +1,28 @@
+package test.Candidature;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.internal.runners.statements.Fail;
+
+import com.Pizzeria.models.Candidature;
+
+import com.Pizzeria.persistence.PersonneManager;
+
+public class Candidat {
+
+	Candidature c;
+
+	@BeforeClass
+	public void bef() {
+		c = new Candidature(1, "sq", "d");
+	}
+
+	@Test
+	public void add() {
+
+		PersonneManager pm = new PersonneManager();
+		pm.add(c);
+
+	}
+
+}
