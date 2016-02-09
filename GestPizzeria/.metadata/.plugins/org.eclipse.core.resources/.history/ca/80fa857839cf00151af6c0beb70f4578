@@ -4,13 +4,14 @@ public class Candidature {
 	private int id;
 	private String nom;
 	private String prenom;
-	
 
 	public Candidature() {
 		super();
 	}
 
 	public Candidature(String nom, String prenom) {
+		super();
+
 		this.nom = nom;
 		this.prenom = prenom;
 	}
