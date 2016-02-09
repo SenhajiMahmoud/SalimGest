@@ -1,0 +1,29 @@
+package com.Pizzeria.persistence;
+
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.Pizzeria.business.DefaultServices;
+import com.Pizzeria.business.Services;
+import com.Pizzeria.models.Candidature;
+
+@Service
+public class PersonneManager implements ServiceDAO{
+	@Autowired
+	private Services serv;
+
+	
+	public void add(Candidature d) {
+			
+		serv.Add(d);
+	}
+	
+	public List<Candidature> taille(String nomTable) {
+		
+		return serv.tailleTable(nomTable);
+	}
+
+}

@@ -5,7 +5,35 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2016-02-09T10:02:42Z</updated>
+  <updated>2016-02-09T16:46:00Z</updated>
+  <entry>
+    <title>This Week in Spring - February 9th, 2016</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/02/09/this-week-in-spring-february-9th-2016" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2016-02-09:2372</id>
+    <updated>2016-02-09T16:46:00Z</updated>
+    <content type="html">&lt;p&gt;Welcome to another installation of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I&amp;rsquo;m in beautiful Stockholm, Sweden at the &lt;a href="http://twitter.com/jfokus"&gt;amazing JFokus conference&lt;/a&gt;. It&amp;rsquo;s also &lt;em&gt;Shrove Tuesday&lt;/em&gt; here in Sweden and the custom is to over-indulge, so as &lt;a href="https://en.m.wikipedia.org/wiki/Semla"&gt;I type this I am eating a Semla&lt;/a&gt;. I hope you too enjoy over-indulging on this week&amp;rsquo;s epic roundup! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;the world&amp;rsquo;s worst kept secret is &lt;em&gt;finally&lt;/em&gt; announced! We&amp;rsquo;ve been developing a reactive runtime for Spring MVC, and you can start to kick the tires! Check out this amazing &lt;a href="https://spring.io/blog/2016/02/09/reactive-spring"&gt;blog on Spring 5&amp;rsquo;s ambitions for reactive web programming&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;Spring Cloud Stream lead Marius Bogoevici has just announced Spring Cloud Stream 1.0.0.M4 which, among other things, defaults to publish/subscribe semantics, supports a notion of consumer groups, provides a simplified binder SPI, resettable Kafka offsets, and &lt;em&gt;so&lt;/em&gt; much more! Check it out!&lt;/li&gt;
+  &lt;li&gt;the &lt;a href="https://github.com/spring-projects/spring-data-couchbase/tree/2.0.0.RELEASE"&gt;2.0.0.RELEASE of Spring Data Couchbase just dropped!&lt;/a&gt;. I suspect there&amp;rsquo;ll be a blog or something announcing it, but in the meantime, grab the bits and try it out!&lt;/li&gt;
+  &lt;li&gt;the good Dr. David Syer&amp;rsquo;s added new &lt;a href="https://spring.io/guides/tutorials/spring-boot-oauth2/#_custom_error"&gt;chapters to the Spring &amp;amp; OAuth tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I put together a little &lt;a href="https://spring.io/blog/2016/02/07/orchestrating-work-with-activiti-and-spring-integration"&gt;post on using Activit and Spring Integration together&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;our pal Nicolas Frankel has put together &lt;a href="https://blog.frankel.ch/designing-your-own-spring-boot-starter-part-1"&gt;a nice post demystifying the power of Spring Boot&amp;rsquo;s autoconfiguration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;if you couldn&amp;rsquo;t make it to SpringOne2GX 2015 &lt;a href="http://www.infoq.com/presentations/spring-boot-web"&gt;to see Brian Clozel and Stéphane Nicoll&amp;rsquo;s presentation on using Spring Boot in the web tier&lt;/a&gt;, then you&amp;rsquo;ll love that it&amp;rsquo;s available online&lt;/li&gt;
+  &lt;li&gt;Oracle Netbean&amp;rsquo;s lead and all-around great guy Geertjan Wielenga and I were talking about integration with Spring Boot and Netbeans and &lt;a href="https://blogs.oracle.com/geertjan/entry/spring_boot_scenario_with_netbeans"&gt;he wrote up his play-by-play on a great Oracle blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;the Heroku documentation have &lt;a href="https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku"&gt;recently updated to include a expanded discussion on deploying Spring Boot applications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Our pal Michael Simmons has &lt;a href="https://github.com/michael-simons/wro4j-spring-boot-starter"&gt;developed a very useful-looking WRO4J Spring Boot starter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Dan Vega&amp;rsquo;s just put together a nice little &lt;a href="https://www.youtube.com/watch?v=MgOdvqvF6gk"&gt;video on how to send email with Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;our pal Petri Kainulainen&amp;rsquo;s back at it again with a nice post on getting the &lt;a href="http://www.petrikainulainen.net/programming/spring-framework/spring-batch-tutorial-getting-the-required-dependencies-with-gradle/"&gt;required dependencies from Maven for a Spring Batch application&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I like this Japanese-language post &lt;a href="https://matsumana.info/blog/2016/02/06/spring-boot-hikaricp-metrics/"&gt;on using the HikariCP from a Spring Boot application and on exposing its metrics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I &lt;em&gt;love&lt;/em&gt; this post from our very own &lt;a href="http://twitter.com/mkheck"&gt;Mark Heckler&lt;/a&gt; &lt;a href="http://www.thehecklers.org/2016/02/01/spring-boot-for-iot-developers-getting-started/"&gt;on Spring Boot for IoT developers&lt;/a&gt;. This is the first in a series, so stay tuned!&lt;/li&gt;
+  &lt;li&gt;great post from &lt;a href="http://www.broadleafcommerce.com/blog/Preventing-Session-Hijacking-With-Spring"&gt;Broadleaf Commerce on preventing session hijacking with Spring&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Reactive Spring</title>
     <link rel="alternate" href="https://spring.io/blog/2016/02/09/reactive-spring" />
@@ -14,11 +42,11 @@
       <name>Rossen Stoyanchev</name>
     </author>
     <id>tag:spring.io,2016-02-08:2371</id>
-    <updated>2016-02-09T10:02:42Z</updated>
+    <updated>2016-02-09T10:02:00Z</updated>
     <content type="html">&lt;p&gt;At SpringOne2GX 2015, Juergen &lt;a href="http://www.infoq.com/news/2015/09/spring-43-5"&gt;announced plans&lt;/a&gt; for Spring Framework 5 with a major focus on reactive architectures. Concrete efforts are already underway and a lot has happened since!&lt;/p&gt;
 &lt;p&gt;At the most basic level, reactive programming models allow for writing non-blocking services and applications. This requires a fundamental shift from writing imperative logic to async, non-blocking, functional-style code, in particular when interacting with external resources.&lt;/p&gt;&lt;h3&gt;&lt;a href="#reactive-web-applications" class="anchor" name="reactive-web-applications"&gt;&lt;/a&gt;Reactive Web Applications&lt;/h3&gt;
 &lt;p&gt;Most Java web applications are built on the Servlet API which was originally created with synchronous and blocking semantics. Over the years, support for asynchronous requests (Servlet 3.0) and non-blocking I/O (Servlet 3.1) was added. In Spring MVC, we&amp;rsquo;ve found that it is feasible to add selective async HTTP request handling to existing applications. However, we&amp;rsquo;ve also found that it is very hard to introduce non-blocking I/O within an existing ecosystem of web frameworks and applications. Doing so requires very deep change all the way to the core contracts which need to switch from blocking to async semantics.&lt;/p&gt;
-&lt;p&gt;One reason for the continued popularity of Spring MVC is its intuitive, annotation-based programming model based on flexible controller method signatures. Fortunately, the same can continue to serve as a foundation for reactive web applications. This is the direction for the &lt;a href="https://github.com/spring-projects/spring-reactive"&gt;Spring Reactive&lt;/a&gt; effort where you will find a &lt;a href="https://github.com/spring-projects/spring-reactive/blob/812f89b1b17e8261f1481ebaab0aef1e1e46722b/src/test/java/org/springframework/web/reactive/method/annotation/RequestMappingIntegrationTests.java#L464"&gt;TestController&lt;/a&gt; that looks like any Spring MVC controller but runs on a new reactive engine with integration tests against Tomcat, Jetty, Undertow, and Netty. Note that this project will get merged into the Spring Framework master branch shortly after the 4.3 release in May, in preparation for the 5.0 M1 release in June.&lt;/p&gt;&lt;h3&gt;&lt;a href="#reactive-foundation" class="anchor" name="reactive-foundation"&gt;&lt;/a&gt;Reactive Foundation&lt;/h3&gt;
+&lt;p&gt;One reason for the continued popularity of Spring MVC is its intuitive, annotation-based programming model based on flexible controller method signatures. Fortunately, the same can continue to serve as a foundation for reactive web applications. This is the direction for the &lt;a href="https://github.com/spring-projects/spring-reactive"&gt;Spring Reactive&lt;/a&gt; effort where you will find a &lt;a href="https://github.com/spring-projects/spring-reactive/blob/545325dbf5d04c30aaedf25b4da1f7b97650d33f/src/test/java/org/springframework/web/reactive/method/annotation/RequestMappingIntegrationTests.java#L464"&gt;TestController&lt;/a&gt; that looks like any Spring MVC controller but runs on a new reactive engine with integration tests against Tomcat, Jetty, Undertow, and Netty. Note that this project will get merged into the Spring Framework master branch shortly after the 4.3 release in May, in preparation for the 5.0 M1 release in June.&lt;/p&gt;&lt;h3&gt;&lt;a href="#reactive-foundation" class="anchor" name="reactive-foundation"&gt;&lt;/a&gt;Reactive Foundation&lt;/h3&gt;
 &lt;p&gt;A key ingredient to this effort is the &lt;a href="https://github.com/reactive-streams/reactive-streams-jvm/blob/v1.0.0/README.md#specification"&gt;Reactive Streams spec&lt;/a&gt; whose purpose is to provide a &lt;em&gt;&amp;ldquo;standard for asynchronous stream processing with non-blocking backpressure&amp;rdquo;&lt;/em&gt;. The spec enables interop among disparate async component providers: from HTTP servers to web frameworks, database drivers, etc. It will be included in JDK 9 as &lt;a href="http://download.java.net/jdk9/docs/api/java/util/concurrent/Flow.html"&gt;java.util.concurrent.Flow&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The spec is small and consists of 4 interfaces, some rules, and a TCK. To expose it as an API however requires infrastructure around it for composing asynchronous logic. Spring Reactive uses &lt;a href="https://github.com/reactor/reactor-core"&gt;Reactor Core&lt;/a&gt;, a small and focused library which serves as a foundation for libraries and frameworks that want to build on Reactive Streams. For those who may be familiar with &lt;a href="http://projectreactor.io/"&gt;Project Reactor&lt;/a&gt;, a lot has happened over the past 6-8 months leading up to this week&amp;rsquo;s release of Reactor Core 2.5 M1, which &lt;a href="https://twitter.com/smaldini"&gt;Stephane Maldini&lt;/a&gt; will provide a full update on soon. &lt;/p&gt;
 &lt;p&gt;Stay tuned for further blog posts on reactive programming from different Spring projects. Also, expect some reactive buzz at this year&amp;rsquo;s &lt;a href="http://www.springio.net/"&gt;Spring I/O&lt;/a&gt; conference in beautiful Barcelona!&lt;/p&gt;</content>
@@ -629,18 +657,5 @@ While there are some missing pieces, such as securing REST API access, and mappi
 &lt;p&gt;A year has passed and the Spring Data shipped two release train iterations packed with interesting features. This talk will give a broad overview of the most important introduced in the Fowler and Gosling release trains.&#xD;
 We will cover recent additions and improvements in Spring Data Commons - the module that's shared amongst the store specific ones. We'll then delve into the latest and greatest features of individual store modules, like JPA, MongoDB and the community ones as well.&lt;/p&gt;
 &lt;p&gt;Tuesday, Jan 26th, 2016 3:00PM GMT &lt;a href="http://connect.pivotal.io/OSS_Webinar_7AMWhatsnewinSpringData_RegisterSpring.html"&gt;Register&lt;/a&gt;&lt;br/&gt;&lt;p&gt;Tuesday, Jan 26th, 2016 10:00AM PST (San Francisco GMT-08:00) &lt;a href="http://connect.pivotal.io/OSS_Webinar_10AMWhatsnewinSpringData_RegisterSpring.html"&gt;Register&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>SpringOne2GX 2015 replay: Get the Most out of Testing with Spring 4.2</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/01/18/springone2gx-2015-replay-get-the-most-out-of-testing-with-spring-4-2" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2016-01-18:2351</id>
-    <updated>2016-01-18T12:22:00Z</updated>
-    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2015&lt;br/&gt;Presenters: Sam Brannen &amp;amp; Nicolas Fränkel&lt;br/&gt;Core Spring Track&lt;br/&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/get-the-most-out-of-testing-with-spring-42-53128369"&gt;http://www.slideshare.net/SpringCentral/get-the-most-out-of-testing-with-spring-42-53128369&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Join Sam Brannen and Nicolas Fränkel to discover what&amp;rsquo;s new in Spring Framework 4.2&amp;rsquo;s testing support and learn tips and best practices for testing modern, Spring-based applications. Sam Brannen is the Spring Test component lead and author of the Spring TestContext Framework, and Nicolas Fränkel is the author of the book &amp;ldquo;Integration Testing from the Trenches&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;In this session, Sam and Nicolas will cover the latest testing features in Core Spring, Spring Boot, and Spring Security. In addition to new features, they will also present insider tips and best practices on integration testing with suites in TestNG, database transactions, SQL script execution, granularity of context configuration files, optimum use of the context cache, a discussion on TestNG vs. JUnit, and much more.&lt;br/&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/enDXm12nVPc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

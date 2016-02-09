@@ -31,9 +31,11 @@ public class Candidature implements Serializable {
 	public Candidature() {
 	}
 
-	public Candidature(String nom, String prenom) {
+	public Candidature(String nom, String prenom, String adresse) {
 		this.nom = nom;
 		this.prenom = prenom;
+		this.adresse = adresse;
+		
 	}
 
 	public int getId() {
@@ -58,6 +60,14 @@ public class Candidature implements Serializable {
 
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
+	}
+
+	public String getAdresse() {
+		return adresse;
+	}
+
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
 	}
 
 }

@@ -9,20 +9,30 @@
 	<url>http://maven.apache.org</url>
 
 
+	<properties>
+		<spring.version>4.1.6.RELEASE</spring.version>
+		<hibernate.version>5.0.7.Final</hibernate.version>
+		<assertj.version>1.0.0</assertj.version>
+		<junit.version>4.8.1</junit.version>
+		<slf4j.version>1.6.1</slf4j.version>
+		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
+		<hibernate-annotaion.version>3.5.6-Final</hibernate-annotaion.version>
+	</properties>
+
 	<dependencies>
 
 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.8.1</version>
+			<version>${junit.version}</version>
 		</dependency>
 
 
 		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
-			<version>1.0.0</version>
+			<version>${assertj.version}</version>
 		</dependency>
 
 
@@ -33,7 +43,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>4.1.6.RELEASE</version>
+			<version>${spring.version}</version>
 		</dependency>
 
 		<!-- The spring-aop module provides an AOP Alliance-compliant aspect-oriented 
@@ -41,7 +51,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
-			<version>4.1.6.RELEASE</version>
+			<version>${spring.version}</version>
 		</dependency>
 
 		<!-- The spring-webmvc module (also known as the Web-Servlet module) contains 
@@ -50,7 +60,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>4.1.6.RELEASE</version>
+			<version>${spring.version}</version>
 		</dependency>
 
 		<!-- The spring-web module provides basic web-oriented integration features 
@@ -59,19 +69,19 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
-			<version>4.1.6.RELEASE</version>
+			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>5.0.7.Final</version>
+			<version>${hibernate.version}</version>
 		</dependency>
 
 		<!-- for JPA, use hibernate-entitymanager instead of hibernate-core -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
-			<version>5.0.7.Final</version>
+			<version>${hibernate.version}</version>
 		</dependency>
 
 		<!-- optional -->
@@ -79,48 +89,48 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-osgi</artifactId>
-			<version>5.0.7.Final</version>
+			<version>${hibernate.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-envers</artifactId>
-			<version>5.0.7.Final</version>
+			<version>${hibernate.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-c3p0</artifactId>
-			<version>5.0.7.Final</version>
+			<version>${hibernate.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-proxool</artifactId>
-			<version>5.0.7.Final</version>
+			<version>${hibernate.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-infinispan</artifactId>
-			<version>5.0.7.Final</version>
+			<version>${hibernate.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-ehcache</artifactId>
-			<version>5.0.7.Final</version>
+			<version>${hibernate.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-annotations</artifactId>
-			<version>3.5.6-Final</version>
+			<version>${hibernate-annotaion.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.6.1</version>
+			<version>${slf4j.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>9.1-901-1.jdbc4</version>
+			<version>${postgresql.version}</version>
 		</dependency>
 
 	</dependencies>

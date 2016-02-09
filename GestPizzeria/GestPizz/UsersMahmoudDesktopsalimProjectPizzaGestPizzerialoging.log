@@ -1048,3 +1048,99 @@
 2016-02-09 17:21:18 INFO  EnversServiceImpl:91 - Envers integration enabled? : true
 2016-02-09 17:21:20 INFO  SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
 2016-02-09 17:21:21 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 17:45:50 INFO  Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+2016-02-09 17:45:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-02-09 17:45:50 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-02-09 17:45:50 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2016-02-09 17:45:51 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-02-09 17:45:51 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-02-09 17:45:51 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 17:45:51 INFO  connections:136 - HHH10001001: Connection properties: {user=postgres, password=****}
+2016-02-09 17:45:51 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2016-02-09 17:45:51 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-02-09 17:45:52 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-02-09 17:45:53 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-02-09 17:45:53 INFO  BasicTypeRegistry:138 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@16b0be5
+2016-02-09 17:45:53 INFO  EnversServiceImpl:91 - Envers integration enabled? : true
+2016-02-09 17:45:56 INFO  SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2016-02-09 17:45:57 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 22:03:10 INFO  Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+2016-02-09 22:03:10 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-02-09 22:03:10 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-02-09 22:03:10 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2016-02-09 22:03:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-02-09 22:03:11 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-02-09 22:03:11 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 22:03:11 INFO  connections:136 - HHH10001001: Connection properties: {user=postgres, password=****}
+2016-02-09 22:03:11 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2016-02-09 22:03:11 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-02-09 22:03:12 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-02-09 22:03:13 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-02-09 22:03:13 INFO  BasicTypeRegistry:138 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1b3ee4e
+2016-02-09 22:03:13 INFO  EnversServiceImpl:91 - Envers integration enabled? : true
+2016-02-09 22:03:15 INFO  SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2016-02-09 22:03:15 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 22:03:39 INFO  Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+2016-02-09 22:03:39 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-02-09 22:03:39 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-02-09 22:03:39 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2016-02-09 22:03:40 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-02-09 22:03:41 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-02-09 22:03:41 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 22:03:41 INFO  connections:136 - HHH10001001: Connection properties: {user=postgres, password=****}
+2016-02-09 22:03:41 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2016-02-09 22:03:41 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-02-09 22:03:41 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-02-09 22:03:42 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-02-09 22:03:42 INFO  BasicTypeRegistry:138 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@cf93bb
+2016-02-09 22:03:42 INFO  EnversServiceImpl:91 - Envers integration enabled? : true
+2016-02-09 22:03:44 INFO  SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2016-02-09 22:03:45 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 22:04:34 INFO  Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+2016-02-09 22:04:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-02-09 22:04:34 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-02-09 22:04:34 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2016-02-09 22:04:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-02-09 22:04:35 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-02-09 22:04:35 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 22:04:35 INFO  connections:136 - HHH10001001: Connection properties: {user=postgres, password=****}
+2016-02-09 22:04:35 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2016-02-09 22:04:35 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-02-09 22:04:35 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-02-09 22:04:36 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-02-09 22:04:36 INFO  BasicTypeRegistry:138 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1b3ee4e
+2016-02-09 22:04:36 INFO  EnversServiceImpl:91 - Envers integration enabled? : true
+2016-02-09 22:04:39 INFO  SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2016-02-09 22:04:39 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 22:09:27 INFO  Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+2016-02-09 22:09:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-02-09 22:09:27 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-02-09 22:09:27 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2016-02-09 22:09:28 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-02-09 22:09:28 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-02-09 22:09:28 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 22:09:28 INFO  connections:136 - HHH10001001: Connection properties: {user=postgres, password=****}
+2016-02-09 22:09:28 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2016-02-09 22:09:28 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-02-09 22:09:29 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-02-09 22:09:29 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-02-09 22:09:29 INFO  BasicTypeRegistry:138 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@cf93bb
+2016-02-09 22:09:30 INFO  EnversServiceImpl:91 - Envers integration enabled? : true
+2016-02-09 22:09:32 INFO  SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2016-02-09 22:09:33 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 22:11:33 INFO  Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+2016-02-09 22:11:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-02-09 22:11:33 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-02-09 22:11:33 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2016-02-09 22:11:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-02-09 22:11:35 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2016-02-09 22:11:35 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/GestPiz]
+2016-02-09 22:11:35 INFO  connections:136 - HHH10001001: Connection properties: {user=postgres, password=****}
+2016-02-09 22:11:35 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2016-02-09 22:11:35 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-02-09 22:11:35 INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-02-09 22:11:36 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-02-09 22:11:36 INFO  BasicTypeRegistry:138 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@b224cd
+2016-02-09 22:11:36 INFO  EnversServiceImpl:91 - Envers integration enabled? : true
+2016-02-09 22:11:41 INFO  SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2016-02-09 22:11:42 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/GestPiz]

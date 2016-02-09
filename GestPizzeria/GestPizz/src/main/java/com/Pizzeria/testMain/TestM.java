@@ -11,11 +11,10 @@ public class TestM {
 
 	public static void main(String[] args) {
 		
-		Candidature c = new Candidature("sq", "d");
+		Candidature c = new Candidature("sq", "d","dsq");
 		
 		PersonneManager pm = new PersonneManager();
-		List<Candidature>  s = pm.taille("candidatures");
-		pm.add(c);
+		pm.Add(c);
 
 	}
 
