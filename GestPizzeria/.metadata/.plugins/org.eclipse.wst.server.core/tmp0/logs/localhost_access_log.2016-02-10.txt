@@ -1,0 +1,7 @@
+127.0.0.1 - - [10/Feb/2016:03:01:51 +0100] "GET / HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [10/Feb/2016:03:01:54 +0100] "GET /GestPizz/Candidature.html HTTP/1.1" 200 542
+0:0:0:0:0:0:0:1 - - [10/Feb/2016:03:02:06 +0100] "GET /GestPizz/Candidature.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Feb/2016:03:02:15 +0100] "GET /GestPizz/candidat.do?nom=Senhaji+Mimidi&prenom=Mahmoud&adres=45+Rue+de+Choisy HTTP/1.1" 500 5221
+127.0.0.1 - - [10/Feb/2016:03:04:54 +0100] "GET / HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [10/Feb/2016:03:05:06 +0100] "GET /GestPizz/Candidature.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Feb/2016:03:05:16 +0100] "GET /GestPizz/candidat.do?nom=Senhaji+Mimidi&prenom=Mahmoud&adres=45+Rue+de+Choisy HTTP/1.1" 500 5221

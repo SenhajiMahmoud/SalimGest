@@ -1,11 +1,14 @@
 package com.Pizzeria.persistence;
 
 import org.hibernate.SessionFactory;
-import org.hibernate.cfg.AnnotationConfiguration;
+
 import org.hibernate.cfg.Configuration;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 //import org.hibernate.cfg.Configuration;
 
 public class HibernateUtil {
+	
 	public static final SessionFactory sessionFactory;
 
 	static {

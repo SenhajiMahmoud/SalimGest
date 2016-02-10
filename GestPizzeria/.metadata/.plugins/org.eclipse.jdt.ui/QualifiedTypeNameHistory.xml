@@ -8,14 +8,17 @@
 <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
-<fullyQualifiedTypeName name="com.Pizzeria.models.Candidature"/>
 <fullyQualifiedTypeName name="com.Pizzeria.controller.ProdController"/>
 <fullyQualifiedTypeName name="com.Pizzeria.business.DefaultServices"/>
 <fullyQualifiedTypeName name="javax.annotation.Resource"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.Pizzeria.business.Services"/>
 <fullyQualifiedTypeName name="com.Pizzeria.persistence.ServiceDAO"/>
 <fullyQualifiedTypeName name="com.Pizzeria.models.CandDto"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.Pizzeria.models.Candidature"/>
+<fullyQualifiedTypeName name="com.Pizzeria.persistence.PersonneManager"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Configurable"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
