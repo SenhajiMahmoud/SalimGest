@@ -10,13 +10,19 @@ import org.springframework.stereotype.Service;
 import com.Pizzeria.models.Candidature;
 import com.Pizzeria.persistence.HibernateUtil;
 
+@Service
 public class DefaultServices implements Services {
 	
+	Session session;
+	
+	public DefaultServices() {
+		session = HibernateUtil.getSessionFactory().getCurrentSession();
+	}
 	public void Add(Candidature candidat) {
 		
-		Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+		
 		System.out.println("ok2");
-		session.beginTransaction();
+		session.beginTransaction();	
 		
 			session.save(candidat);
 		session.getTransaction().commit();
