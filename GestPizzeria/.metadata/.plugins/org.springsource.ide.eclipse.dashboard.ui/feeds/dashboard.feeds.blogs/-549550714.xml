@@ -5,7 +5,55 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2016-02-10T12:35:46Z</updated>
+  <updated>2016-02-11T10:00:50Z</updated>
+  <entry>
+    <title>From Vienna to Riga and London</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/02/11/from-vienna-to-riga-and-london" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Juergen Hoeller</name>
+    </author>
+    <id>tag:spring.io,2016-02-10:2377</id>
+    <updated>2016-02-11T10:00:50Z</updated>
+    <content type="html">&lt;p&gt;In early March, I&amp;rsquo;ll be speaking at &lt;a href="https://voxxeddays.com/vienna16/"&gt;VoxxedDays Vienna&lt;/a&gt; on the 1st, &lt;a href="http://rigadevday.lv/"&gt;Riga Dev Day&lt;/a&gt; on the 2nd, as well as &lt;a href="https://qconlondon.com/"&gt;QCon London&lt;/a&gt; on the 7th. Aside from my 4.3 component model discussion, I&amp;rsquo;ll also do a Spring Framework 5.0 preview &amp;amp; roadmap talk for the first time (in Riga as well as London).&lt;/p&gt;
+&lt;p&gt;Looking forward to those shows! See you there&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Juergen&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Session 1.1.0 RC1 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/02/11/spring-session-1-1-0-rc1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2016-02-11:2378</id>
+    <updated>2016-02-11T07:19:48Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the community, I&amp;rsquo;m pleased to announce the release of Spring Session 1.1.0.RC1. &lt;a href="https://repo.spring.io/milestone/org/springframework/session/spring-session-data-redis/1.1.0.RC1/"&gt;The release&lt;/a&gt; can be found in the &lt;a href="https://github.com/spring-projects/spring-framework/wiki/Spring-repository-FAQ#what-repositories-are-available"&gt;Spring Milestone Repository&lt;/a&gt; (&lt;a href="https://repo.spring.io/milestone/)"&gt;https://repo.spring.io/milestone/)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release contains lots of fixes and new features. You can find details in the &lt;a href="http://docs.spring.io/spring-session/docs/1.1.0.RC1/reference/html5/#what-s-new-in-1-1"&gt;What&amp;rsquo;s New in 1.1&lt;/a&gt; The highlights of 1.1.0.RC1 have been included below:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Support for &lt;a href="http://docs.spring.io/spring-session/docs/1.1.0.RC1/reference/html5/#httpsession-gemfire"&gt;GemFire&lt;/a&gt; Thanks to &lt;a href="https://twitter.com/john_blum"&gt;John Blum&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;Allow writing to Redis immediately (instead of lazily) using &lt;a href="http://docs.spring.io/spring-session/docs/1.1.0.RC1/reference/html5/#api-redisoperationssessionrepository-config"&gt;redisFlushMode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We look forward to your feedback and if all goes well plan to release 1.1.0.RELEASE in the next few weeks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-session/"&gt;Site&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-session/docs/1.1.0.RC1/reference/html5/"&gt;Documentation&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-session/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-session"&gt;Help&lt;/a&gt; &lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>We have adopted a Contributor Code of Conduct!</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/02/10/we-have-adopted-a-contributor-code-of-conduct" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Chelsea Troy</name>
+    </author>
+    <id>tag:spring.io,2016-02-04:2368</id>
+    <updated>2016-02-10T19:05:00Z</updated>
+    <content type="html">&lt;p&gt;We have an exciting announcement to make!&lt;/p&gt;
+&lt;p&gt;The Spring projects are about developing fast, flexible Java apps. &lt;/p&gt;
+&lt;p&gt;But there&amp;rsquo;s a driving force behind the technology—its people. We open-source our projects to welcome our community into making Spring the best it can be.&lt;/p&gt;
+&lt;p&gt;Now we are taking another step in that direction. Each of the active Spring projects has adopted a Contributor Code of Conduct! &lt;a href="https://github.com/spring-projects/spring-framework/blob/master/CODE_OF_CONDUCT.adoc"&gt;You can look at the contributor code of conduct right here&lt;/a&gt;, and you&amp;rsquo;ll find a copy in each of our repositories on Github. &lt;/p&gt;
+&lt;p&gt;We want people from minority groups in tech to feel welcome to contribute to Spring. Contributor codes of conduct improve the experience of open source participation for people in those groups.&lt;/p&gt;
+&lt;p&gt;That is why we have committed to making participation in the Spring projects a harassment-free experience for everyone, regardless of level of experience, gender, gender identity or expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, or nationality. &lt;/p&gt;
+&lt;p&gt;We also have a place for contributors to direct their concerns if they feel that the code of conduct has been breached. If you notice or experience discrimination or hurtful comments while participating in any Spring project, you can reach out to us at &lt;a href="mailto:&amp;#x73;&amp;#112;&amp;#114;&amp;#105;&amp;#110;&amp;#103;&amp;#x2d;&amp;#x63;&amp;#111;&amp;#100;&amp;#101;&amp;#45;&amp;#x6f;&amp;#102;&amp;#45;&amp;#99;&amp;#x6f;&amp;#110;&amp;#100;&amp;#x75;&amp;#99;&amp;#x74;&amp;#x40;&amp;#x70;&amp;#x69;&amp;#118;&amp;#x6f;&amp;#116;&amp;#97;l&amp;#46;&amp;#x69;&amp;#x6f;"&gt;&amp;#x73;&amp;#112;&amp;#114;&amp;#105;&amp;#110;&amp;#103;&amp;#x2d;&amp;#x63;&amp;#111;&amp;#100;&amp;#101;&amp;#45;&amp;#x6f;&amp;#102;&amp;#45;&amp;#99;&amp;#x6f;&amp;#110;&amp;#100;&amp;#x75;&amp;#99;&amp;#x74;&amp;#x40;&amp;#x70;&amp;#x69;&amp;#118;&amp;#x6f;&amp;#116;&amp;#97;l&amp;#46;&amp;#x69;&amp;#x6f;&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Data Couchbase 2.0</title>
     <link rel="alternate" href="https://spring.io/blog/2016/02/10/spring-data-couchbase-2-0" />
@@ -192,7 +240,7 @@
   &lt;li&gt;the Heroku documentation have &lt;a href="https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku"&gt;recently updated to include a expanded discussion on deploying Spring Boot applications&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Our pal Michael Simmons has &lt;a href="https://github.com/michael-simons/wro4j-spring-boot-starter"&gt;developed a very useful-looking WRO4J Spring Boot starter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Dan Vega&amp;rsquo;s just put together a nice little &lt;a href="https://www.youtube.com/watch?v=MgOdvqvF6gk"&gt;video on how to send email with Spring Boot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;our pal Petri Kainulainen&amp;rsquo;s back at it again with a nice post on getting the &lt;a href="http://www.petrikainulainen.net/programming/spring-framework/spring-batch-tutorial-getting-the-required-dependencies-with-gradle/"&gt;required dependencies from Maven for a Spring Batch application&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;our pal Petri Kainulainen&amp;rsquo;s back at it again with a nice post on getting the &lt;a href="http://www.petrikainulainen.net/programming/spring-framework/spring-batch-tutorial-getting-the-required-dependencies-with-gradle/"&gt;required dependencies from Gradle for a Spring Batch application&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;I like this Japanese-language post &lt;a href="https://matsumana.info/blog/2016/02/06/spring-boot-hikaricp-metrics/"&gt;on using the HikariCP from a Spring Boot application and on exposing its metrics&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;I &lt;em&gt;love&lt;/em&gt; this post from our very own &lt;a href="http://twitter.com/mkheck"&gt;Mark Heckler&lt;/a&gt; &lt;a href="http://www.thehecklers.org/2016/02/01/spring-boot-for-iot-developers-getting-started/"&gt;on Spring Boot for IoT developers&lt;/a&gt;. This is the first in a series, so stay tuned!&lt;/li&gt;
   &lt;li&gt;great post from &lt;a href="http://www.broadleafcommerce.com/blog/Preventing-Session-Hijacking-With-Spring"&gt;Broadleaf Commerce on preventing session hijacking with Spring&lt;/a&gt;&lt;/li&gt;
@@ -696,74 +744,5 @@ eval(&amp;#39;x=1} } };alert(1)//&amp;#39;);&#xD;
 &lt;p&gt;By overriding the native function &lt;code&gt;charAt&lt;/code&gt; we can bypass Angular&amp;rsquo;s Expression Sandbox and allow us to execute &lt;code&gt;alert(1)&lt;/code&gt;. Refer to &lt;a href="http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html"&gt;XSS without HTML: Client-Side Template Injection with AngularJS&lt;/a&gt; for complete details of how the exploit works.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: This payload targets Chrome and AngularJS 1.4.8. It is not known to work in other browsers.&lt;/p&gt;&lt;h1&gt;&lt;a href="#conclusion" class="anchor" name="conclusion"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
 &lt;p&gt;Allowing the server to echo user input into an Angular template will expose your application to XSS exploits. More generally, you should not mix server side rendering of user input and client side templates. You can find a sample that accompanies this blog post at &lt;a href="https://github.com/rwinch/angularjs-escaping-expression-sandbox"&gt;rwinch/angularjs-escaping-expression-sandbox&lt;/a&gt;.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Introducing Spring Cloud Task</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/01/27/introducing-spring-cloud-task" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Michael Minella</name>
-    </author>
-    <id>tag:spring.io,2016-01-27:2357</id>
-    <updated>2016-01-27T04:44:00Z</updated>
-    <content type="html">&lt;p&gt;Today we are pleased to introduce a new project in the Spring portfolio, &lt;a href="http://cloud.spring.io/spring-cloud-task/"&gt;Spring Cloud Task&lt;/a&gt;.  Under the umbrella of the &lt;a href="http://projects.spring.io/spring-cloud/"&gt;Spring Cloud&lt;/a&gt; grouping of projects and the sister project of &lt;a href="http://cloud.spring.io/spring-cloud-stream/"&gt;Spring Cloud Stream&lt;/a&gt;, Spring Cloud Task aims to bring functionality required to support short lived microservices to Spring Boot based applications.  With this blog post, we are releasing our first milestone of the project and are eager for your input and feedback.&lt;/p&gt;
-&lt;h2&gt;The Goals of Spring Cloud Task&lt;/h2&gt;
-&lt;p&gt;In most cases, the modern cloud environment is designed around the execution of processes that are not expected to end (think web applications or stream modules). If they do, it's considered a failure by the platform and they are typically restarted. While many platforms do have some method to execute a process that is expected to end (a batch job for example), the results of that execution are typically not maintained in a consumable way.  Yet for mission critical applications, even though they are short lived, they still have the same non-functional requirements long lived processes have.&lt;/p&gt;
-&lt;p&gt;While this functionality is useful in a cloud environment, the same issues can arise in a traditional deployment model as well. When executing Spring Boot applications via a scheduler like cron, it can be useful to be able to monitor the results of the application after it’s completion.&lt;/p&gt;
-&lt;p&gt;A Spring Cloud Task takes the approach that a Spring Boot application can have a start and an end and still be production grade.  Batch applications are just one example of where short lived processes can be helpful.&lt;/p&gt;
-&lt;h2&gt;Getting Started&lt;/h2&gt;
-&lt;p&gt;In this first release of Spring Cloud Task, we introduce the basics of the configuration mechanisms as well as a repository to record what happens when a task is executed.  Those who are familiar with &lt;a href="http://projects.spring.io/spring-batch/"&gt;Spring Batch&lt;/a&gt; and its job repository should find the general paradigms of Spring Cloud Task familiar.&lt;/p&gt;
-&lt;p&gt;To get familiar with Spring Cloud Task, the easiest way is to write an application.  The documentation walks you through the creation of an initial task and its execution.  You can read more about that &lt;a href="http://docs.spring.io/spring-cloud-task/1.0.0.M1/reference/htmlsingle/#getting-started-developing-first-task"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Where we're going&lt;/h2&gt;
-&lt;p&gt;Tasks will be a new primitive within &lt;a href="http://cloud.spring.io/spring-cloud-dataflow/"&gt;Spring Cloud Data Flow&lt;/a&gt; in the coming releases allowing users to execute virtually any Spring Boot application as a short lived task.  This provides the flexibility to run everything from a simple &lt;code&gt;CommandLineRunner&lt;/code&gt; to a full batch job in dynamic way, allowing resources to be consumed on demand and returned once complete.  The upcoming releases including Spring Cloud Task 1.0 GA which we plan for just before Spring Cloud Data Flow goes 1.0 GA, will be adding features to support that effort.&lt;/p&gt;
-&lt;h2&gt;Tell us what you think!&lt;/h2&gt;
-&lt;p&gt;Spring Cloud Task is a new and exciting project that we feel fills an under served area of enterprise development.  However, we want to know what you think.  Please let us know via the issues in &lt;a href="https://github.com/spring-cloud/spring-cloud-task/issues"&gt;Github Issues&lt;/a&gt;, &lt;a href="http://stackoverflow.com/questions/tagged/spring-cloud"&gt;StackOverflow&lt;/a&gt;, or directly on &lt;a href="http://twitter.com/springcentral"&gt;Twitter&lt;/a&gt;!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - January 26th, 2016</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/01/26/this-week-in-spring-january-26th-2016" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2016-01-26:2356</id>
-    <updated>2016-01-26T12:29:00Z</updated>
-    <content type="html">&lt;p&gt;Welcome to another installation of &lt;em&gt;This Week in Spring&lt;/em&gt;! Here we are, already staring at the second month of the year and, &lt;em&gt;boy&lt;/em&gt;!, are things getting exciting! I&amp;rsquo;m about to start hitting the road again and &lt;a href="http://twitter.com/starbuxman"&gt;I&amp;rsquo;d&lt;/a&gt; love &lt;a href="mailto:josh@joshlong.com"&gt;to talk to you&lt;/a&gt; and your organization if you&amp;rsquo;re near any of the following places and events in February:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="http://microxchg.io/2016/index.html"&gt;Microchg Conf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.jfokus.se/jfokus/"&gt;JFokus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.devnexus.com/s/index"&gt;Devnexus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Hatford, Connecticut (around 17/2/2016)&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://confoo.ca/en"&gt;Confoo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Shanghai (around 26/2/2016)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Anyway, without further ado, let&amp;rsquo;s get into it!&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;our own Paul Chapman chimes in on the &lt;a href="https://spring.io/blog/2016/01/21/pivotal-academy-launches-updated-spring-classes"&gt;updated courseware available for developers who want to learn about Spring&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;there are (finally!) new guides available on using &lt;strong&gt;Spring Cloud&lt;/strong&gt;: &lt;a href="https://spring.io/guides/gs/routing-and-filtering/"&gt;routing and filtering using the Netflix Zuul microproxy library and Spring Cloud&lt;/a&gt;, &lt;a href="https://spring.io/guides/gs/centralized-configuration/"&gt;centralized configuration with the Spring Cloud Config Server&lt;/a&gt;, the &lt;a href="https://spring.io/guides/gs/circuit-breaker/"&gt;circuit breaker design pattern&lt;/a&gt;, and service registration and discovery &lt;a href="https://spring.io/guides/gs/service-registration-and-discovery/"&gt;using Spring Cloud&amp;rsquo;s &lt;code&gt;DiscoveryClient&lt;/code&gt; abstraction and Spring Cloud&amp;rsquo;s integration of Netflix Eureka&lt;/a&gt;. Stay tuned, we&amp;rsquo;ve got more in the pipeline!&lt;/li&gt;
-  &lt;li&gt;Spring Boot lead Phil Webb just announced &lt;a href="https://spring.io/blog/2016/01/22/spring-boot-1-3-2-released"&gt;the release of 1.3.2&lt;/a&gt;, which includes updates to dependencies and a few bug fixes&lt;/li&gt;
-  &lt;li&gt;check out Jetbrain&amp;rsquo;s Yann Cébron and our very own Stéphane Nicoll&amp;rsquo;s &lt;a href="http://www.infoq.com/presentations/spring-boot-intellij"&gt;epic SpringOne2GX 2015 presentation on how Spring Boot lends itself to first-class tooling&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;our pal Baeldung is back at it again, &lt;a href="https://www.youtube.com/watch?v=71UFLAVXgq0"&gt;this time with a video on monitoring Spring Boot applications&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://tomaszdziurko.pl/2016/01/dockerizing-spring-boot-application/"&gt;http://tomaszdziurko.pl/2016/01/dockerizing-spring-boot-application/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Neo4j has a nice transcription &lt;a href="http://neo4j.com/blog/polyglot-persistence-microservices-spring-cloud-neo4j/"&gt;of our GraphConnect 2015 talk&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;this third entry in a Spanish-language series &lt;a href="https://www.paradigmadigital.com/dev/integrar-microservicios-spring-cloud-34/"&gt;on building microservices with Spring Boot and Spring Cloud looks pretty good!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;the talk I gave on building cloud native Java applications &lt;a href="http://www.infoq.com/br/presentations/the-cloud-native-application-microservices-with-spring-boot-and-spring-cloud"&gt;using Spring Boot and Spring Cloud at QCon Rio de Janeiro&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I really dug our pal Nicolas Frankel&amp;rsquo;s post &lt;a href="https://blog.frankel.ch/playing-with-spring-boot-vaadin-and-kotlin"&gt;on using Spring Boot and Vaadin together with the Kotlin programming language&lt;/a&gt;. Kotlin&amp;rsquo;s a very nice language and this post covers some issues you&amp;rsquo;ll encounter in your first steps using Spring and Kotlin together. Very handy!&lt;/li&gt;
-  &lt;li&gt;Groovy is &lt;em&gt;also&lt;/em&gt; a very nice programming language and if you want further proof then you need look &lt;a href="https://dzone.com/articles/grails-goodness-using-spring-cloud-config-server"&gt;no further than this post which demonstrates standing up a Spring Cloud Config Server in almost no code at all!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Boot 1.3.2 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/01/22/spring-boot-1-3-2-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Phil Webb</name>
-    </author>
-    <id>tag:spring.io,2016-01-22:2355</id>
-    <updated>2016-01-22T03:26:14Z</updated>
-    <content type="html">&lt;p&gt;Spring Boot 1.3.2 has been released and is available now from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;This maintenance release includes a &lt;a href="https://github.com/spring-projects/spring-boot/issues?q=milestone%3A1.3.2+is%3Aclosed"&gt;number of fixes&lt;/a&gt; and 3rd party dependency updates.&lt;/p&gt;
-&lt;p&gt;If you are upgrading from 1.3.1 there is one potentially breaking change; we now only search for &lt;code&gt;messages.properties&lt;/code&gt; (and not &lt;code&gt;messages*.properties&lt;/code&gt;) to enable auto-configuration of a message source. If you previously had a message file of the form &lt;code&gt;messages_en.properties&lt;/code&gt; and you didn&amp;rsquo;t include a default &lt;code&gt;messages.properties&lt;/code&gt; file, you will now need to add one.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
