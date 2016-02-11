@@ -11,7 +11,6 @@ import com.Pizzeria.models.Candidature;
 import com.Pizzeria.persistence.ServiceDAO;
 
 @Controller
-@Configurable
 public class ProdController {
 	
 	@Autowired

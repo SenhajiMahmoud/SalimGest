@@ -12,21 +12,20 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.Pizzeria.business.DefaultServices;
+import com.Pizzeria.business.Services;
 import com.Pizzeria.models.Candidature;
 import com.Pizzeria.persistence.HibernateUtil;
-import com.Pizzeria.persistence.PersonneManager;
-import com.Pizzeria.persistence.ServiceDAO;
 
-@Component
+
 public class Candidat {
 
 	private static Candidature c;
-//	private static ServiceDAO pm;
 	private List<Candidature> s, s1;
 	
 	@Autowired
-	private ServiceDAO pm;
-
+	private DefaultServices pm;
+	
 	@BeforeClass
 	public static void bef() {
 		c = new Candidature("sq", "d", "dqs");
@@ -35,9 +34,9 @@ public class Candidat {
 
 	@Test
 	public void add() {
-		s = pm.taille("candidatures");
+		s = pm.tailleTable("candidatures");
 		pm.Add(c);
-		s1 = pm.taille("candidatures");
+		s1 = pm.tailleTable("candidatures");
 
 		assertThat(s1).hasSize(s.size() + 1);
 		// assertEquals(s.size() + 1, 2);
