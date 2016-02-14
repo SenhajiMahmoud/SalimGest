@@ -3,6 +3,7 @@ package test.Candidature;
 //import static org.junit.Assert.*;
 
 import static org.assertj.core.api.Assertions.*;
+import static org.junit.Assert.*;
 
 import java.util.List;
 
@@ -24,8 +25,7 @@ public class Candidat {
 	private List<Candidature> s, s1;
 	
 	@Autowired
-	private DefaultServices pm;
-	
+	private Services pm;
 	@BeforeClass
 	public static void bef() {
 		c = new Candidature("sq", "d", "dqs");
@@ -39,7 +39,7 @@ public class Candidat {
 		s1 = pm.tailleTable("candidatures");
 
 		assertThat(s1).hasSize(s.size() + 1);
-		// assertEquals(s.size() + 1, 2);
+//		 assertEquals(s.size() + 1, 2);
 	}
 
 	@AfterClass

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+          
+<hibernate-mapping>
+
+	<class name="com.Pizzeria.models.Candidature" table="CANDIDATURES">
+	
+		<id name="id" column="id_candidat" > 
+			<generator class="increment" />
+		</id>
+		
+		<property name="nom" column="nom_candidat"/>
+		<property name="prenom" column="prenom_candidat"/>
+	
+	
+	</class>
+	
+	<context:annotation-config />
+</hibernate-mapping>

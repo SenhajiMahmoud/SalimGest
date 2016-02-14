@@ -10,3 +10,13 @@
 1455048934854	Delete element
 1455201116479	Move 'UsersMahmoudDesktopsalimProjectPizzaGestPizzerialoging.log' to 'src'
 1455201150488	Move 'UsersMahmoudDesktopsalimProjectPizzaGestPizzerialoging.log' to 'GestPizz'
+1455398281238	Rename resource 'log4j.properties'
+1455398795969	Delete element
+1455399663547	Delete element
+1455403262935	Move 'log4j.xml' to 'WEB-INF'
+1455442147109	Delete element
+1455476238291	Move file
+1455477364617	Delete element
+1455479165264	Delete element
+1455481023338	Rename type 'PersonneManager'
+1455481041364	Rename type 'ServiceDAO'

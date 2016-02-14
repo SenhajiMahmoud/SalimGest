@@ -5,7 +5,43 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2016-02-11T10:00:50Z</updated>
+  <updated>2016-02-12T15:53:00Z</updated>
+  <entry>
+    <title>Spring Data Release Train Hopper M1 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/02/12/spring-data-release-train-hopper-m1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Oliver Gierke</name>
+    </author>
+    <id>tag:spring.io,2016-02-12:2380</id>
+    <updated>2016-02-12T15:53:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the Spring Data team I&amp;rsquo;m happy to announce the first milestone of the Hopper release train. The release ships 250 tickets fixed! The most important new features are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Upgrade to Querydsl 4.&lt;/li&gt;
+  &lt;li&gt;Integration of Spring Data Neo4j 4.1, Spring Data Couchbase 2.1 and Spring Data Solr 2 (on Solr 5).&lt;/li&gt;
+  &lt;li&gt;Support for Redis Cluster.&lt;/li&gt;
+  &lt;li&gt;Support for projections on repository query methods in JPA and MongoDB (see &lt;a href="https://github.com/spring-projects/spring-data-examples/tree/master/jpa/example/src/main/java/example/springdata/jpa/projections"&gt;the example&lt;/a&gt; for details).&lt;/li&gt;
+  &lt;li&gt;Addition of Spring Data Envers to the release train (previously maintained separately).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find a curated changelog in our &lt;a href="https://github.com/spring-projects/spring-data-commons/wiki/Release-Train-Hopper"&gt;release train wiki&lt;/a&gt; or skim through a &lt;a href="https://jira.spring.io/issues/?filter=15352"&gt;full list of changes in JIRA&lt;/a&gt;. We&amp;rsquo;re shooting for a release candidate early March and a GA release at the end of the month.&lt;/p&gt;
+&lt;p&gt;The easiest way to play with the milestone is declaring the &lt;code&gt;spring-data-releasetrain.version&lt;/code&gt; property to &lt;code&gt;Hopper-M1&lt;/code&gt; in your Spring Boot application. If you&amp;rsquo;re using Solr or Querydsl, make sure you also upgrade these versions as shown in the &lt;a href="https://github.com/spring-projects/spring-data-examples/blob/master/pom.xml#L35"&gt;example&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re looking forward to your feedback!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Data Commons 1.12 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-commons/1.12.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.12.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.12.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.12.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data JPA 1.10 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-jpa/1.10.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.10.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.10.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.10.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Cassandra 1.4 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-cassandra/1.4.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/1.4.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/1.4.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/1.4.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Solr 2.0 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-solr/2.0.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/2.0.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/2.0.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/2.0.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Gemfire 1.8 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-gemfire/1.8.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/1.8.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/1.8.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/1.8.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Neo4j 4.1 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-neo4j/4.1.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/4.1.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/4.1.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/4.1.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data MongoDB 1.9 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-mongodb/1.9.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.9.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.9.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.9.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Envers 1.0 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-envers/1.0.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/envers/docs/1.0.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/envers/docs/1.0.0.M1/reference/html"&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data KeyValue 1.1 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-keyvalue/1.1.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/keyvalue/docs/1.1.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/keyvalue/docs/1.1.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/keyvalue/docs/1.1.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data REST 2.5 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-rest-webmvc/2.5.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/2.5.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/2.5.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/2.5.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Redis 1.7 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-redis/1.7.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/1.7.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/1.7.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/1.7.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Elasticsearch 1.4 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-elasticsearch/1.4.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/1.4.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/1.4.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/1.4.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Couchbase 2.1 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-couchbase/2.1.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/2.1.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/2.1.0.M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/2.1.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>From Vienna to Riga and London</title>
     <link rel="alternate" href="https://spring.io/blog/2016/02/11/from-vienna-to-riga-and-london" />
@@ -657,92 +693,5 @@ IntegrationFlow repliesFlow(MessageChannels channels,&#xD;
 &lt;p&gt;Thank you everyone for contribution and any kind of feedback!&lt;/p&gt;
 &lt;p&gt;We don&amp;rsquo;t have particular plans for version &lt;code&gt;1.2&lt;/code&gt;, because we are looking into the absorption of Java DSL project by the Spring Integration 5.0, where Java 8 is minimal, but feel free to ask us for more features and share any concerns which can be considered to be included in the next maintenance release.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-integration-java-dsl"&gt;Project Page&lt;/a&gt; | &lt;a href="https://jira.spring.io/browse/INTEXT"&gt;JIRA&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-integration/blob/master/CONTRIBUTING.md"&gt;Contributions&lt;/a&gt; | &lt;a href="http://stackoverflow.com"&gt;StackOverflow&lt;/a&gt; (&lt;code&gt;spring-integration&lt;/code&gt; tag)&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>AngularJS - Escaping the Expression Sandbox for XSS</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/01/28/angularjs-escaping-the-expression-sandbox-for-xss" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Rob Winch</name>
-    </author>
-    <id>tag:spring.io,2016-01-27:2358</id>
-    <updated>2016-01-28T13:07:00Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: This is a summary of &lt;a href="http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html"&gt;XSS without HTML: Client-Side Template Injection with AngularJS&lt;/a&gt;. Previously the citation was in the middle of the document and difficult to find. The goal of the summary is to present the exploit and a fix without all the nuances, not to claim the work as my own.&lt;/p&gt;&lt;h1&gt;&lt;a href="#introduction" class="anchor" name="introduction"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://angularjs.org/"&gt;AngularJS&lt;/a&gt; is a popular JavaScript framework that allows embedding &lt;a href="https://code.angularjs.org/1.4.9/docs/guide/expression"&gt;expressions&lt;/a&gt; within double curly braces. &lt;a href="https://code.angularjs.org/1.4.9/docs/guide/expression#example"&gt;For example&lt;/a&gt;, the expression &lt;code&gt;1+2={{1+2}}&lt;/code&gt; will render as &lt;code&gt;1+2=3&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;This means that if the server echos out user input that contains double curly braces, the user can perform a XSS exploit using Angular expressions.&lt;/p&gt;&lt;h1&gt;&lt;a href="#writing-user-input-server-side" class="anchor" name="writing-user-input-server-side"&gt;&lt;/a&gt;Writing User Input Server Side&lt;/h1&gt;
-&lt;p&gt;Let&amp;rsquo;s explore a page that is safely HTML encoding user input. In our example below, we use &lt;a href="http://www.thymeleaf.org/"&gt;Thymeleaf&lt;/a&gt; to HTML encode and then output the attribute &lt;code&gt;username&lt;/code&gt; to the text of the div of our page.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint html"&gt;&amp;lt;html xmlns:th=&amp;quot;http://www.thymeleaf.org&amp;quot;&amp;gt;&#xD;
-&amp;lt;head&amp;gt;&#xD;
-&amp;lt;title&amp;gt;AngularJS - Escaping the Expression Sandbox&amp;lt;/title&amp;gt;&#xD;
-&amp;lt;/head&amp;gt;&#xD;
-&amp;lt;body&amp;gt;&#xD;
-&amp;lt;div th:text=&amp;quot;${username}&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&#xD;
-&amp;lt;/body&amp;gt;&#xD;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If username is &lt;code&gt;&amp;lt;script&amp;gt;alert(&amp;#39;Rob&amp;#39;)&amp;lt;/script&amp;gt;&lt;/code&gt; the output might look like:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint html"&gt;&amp;lt;html xmlns:th=&amp;quot;http://www.thymeleaf.org&amp;quot;&amp;gt;&#xD;
-&amp;lt;head&amp;gt;&#xD;
-&amp;lt;title&amp;gt;AngularJS - Escaping the Expression Sandbox&amp;lt;/title&amp;gt;&#xD;
-&amp;lt;/head&amp;gt;&#xD;
-&amp;lt;body&amp;gt;&#xD;
-&amp;lt;div&amp;gt;&amp;amp;lt;script&amp;amp;gt;alert(&amp;amp;#39;Rob&amp;amp;#39;)&amp;amp;lt;/script&amp;amp;gt;&amp;lt;/div&amp;gt;&#xD;
-&amp;lt;/body&amp;gt;&#xD;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You will notice that the output is properly HTML encoded. This means our application is currently safe from XSS attacks.&lt;/p&gt;&lt;h1&gt;&lt;a href="#adding-angularjs" class="anchor" name="adding-angularjs"&gt;&lt;/a&gt;Adding AngularJS&lt;/h1&gt;
-&lt;p&gt;Our application is currently secure against XSS attacks. Let&amp;rsquo;s update the application to use AngularJS&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint html"&gt;&amp;lt;html xmlns:th=&amp;quot;http://www.thymeleaf.org&amp;quot;&amp;gt;&#xD;
-&amp;lt;head&amp;gt;&#xD;
-&amp;lt;title&amp;gt;Angular Expression - safe&amp;lt;/title&amp;gt;&#xD;
-&amp;lt;script src=&amp;quot;angular-1.4.8.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&#xD;
-&amp;lt;/head&amp;gt;&#xD;
-&amp;lt;body ng-app&amp;gt;&#xD;
-&amp;lt;div th:text=&amp;quot;${username}&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&#xD;
-&amp;lt;/body&amp;gt;&#xD;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You will notice two changes:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;We include added &lt;code&gt;angular-1.4.8.min.js&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;We added &lt;code&gt;ng-app&lt;/code&gt; to the body element&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Our application is now vulnerable to XSS attacks, but how can we exploit it? The big clue should be our introduction to Angular expressions. What would happen with a username of &lt;code&gt;1+2={{1+2}}&lt;/code&gt;? The result would be:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint html"&gt;&amp;lt;html&amp;gt;&#xD;
-&amp;lt;head&amp;gt;&#xD;
-&amp;lt;title&amp;gt;Angular Expression - safe&amp;lt;/title&amp;gt;&#xD;
-&amp;lt;script src=&amp;quot;angular-1.4.8.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&#xD;
-&amp;lt;/head&amp;gt;&#xD;
-&amp;lt;body ng-app=&amp;quot;&amp;quot;&amp;gt;&#xD;
-&amp;lt;div&amp;gt;1+2={{1+2}}&amp;lt;/div&amp;gt;&#xD;
-&amp;lt;/body&amp;gt;&#xD;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Angular would then update the DOM to be:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint html"&gt;&amp;lt;html&amp;gt;&#xD;
-&amp;lt;head&amp;gt;&#xD;
-&amp;lt;title&amp;gt;Angular Expression - safe&amp;lt;/title&amp;gt;&#xD;
-&amp;lt;script src=&amp;quot;angular-1.4.8.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&#xD;
-&amp;lt;/head&amp;gt;&#xD;
-&amp;lt;body ng-app=&amp;quot;&amp;quot;&amp;gt;&#xD;
-&amp;lt;div&amp;gt;1+2=3&amp;lt;/div&amp;gt;&#xD;
-&amp;lt;/body&amp;gt;&#xD;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;We could try a username of &lt;code&gt;{{alert(&amp;#39;Rob&amp;#39;)}}&lt;/code&gt;, but that would be blocked by &lt;a href="https://code.angularjs.org/1.4.9/docs/guide/security#expression-sandboxing"&gt;Expression Sandboxing&lt;/a&gt;. At this point you might think that we are safe. However, despite appearing in the security section of the documention, Expression Sandboxing is not intended to provide security.&lt;/p&gt;
-&lt;p&gt;More concretely, the documentation states the following about &lt;a href="https://code.angularjs.org/1.4.9/docs/guide/security#mixing-client-side-and-server-side-templates"&gt;Mixing client-side and server-side templates&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;In general, we recommend against this because it can create unintended XSS vectors.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Ultimately, this means that if you allow user input to be rendered in templates on the server side, the application is vulnerable to XSS attacks. Let&amp;rsquo;s take a look at a concrete example.&lt;/p&gt;&lt;h1&gt;&lt;a href="#escaping-the-expression-sandbox" class="anchor" name="escaping-the-expression-sandbox"&gt;&lt;/a&gt;Escaping the Expression Sandbox&lt;/h1&gt;
-&lt;p&gt;If our payload is sandboxed, how can we provide a valid XSS exploit?&lt;br/&gt;What would happen if our username was:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint javascript"&gt;{{&#xD;
-&amp;#39;a&amp;#39;.constructor.prototype.charAt=[].join;&#xD;
-eval(&amp;#39;x=1} } };alert(1)//&amp;#39;);&#xD;
-}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;By overriding the native function &lt;code&gt;charAt&lt;/code&gt; we can bypass Angular&amp;rsquo;s Expression Sandbox and allow us to execute &lt;code&gt;alert(1)&lt;/code&gt;. Refer to &lt;a href="http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html"&gt;XSS without HTML: Client-Side Template Injection with AngularJS&lt;/a&gt; for complete details of how the exploit works.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: This payload targets Chrome and AngularJS 1.4.8. It is not known to work in other browsers.&lt;/p&gt;&lt;h1&gt;&lt;a href="#conclusion" class="anchor" name="conclusion"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;Allowing the server to echo user input into an Angular template will expose your application to XSS exploits. More generally, you should not mix server side rendering of user input and client side templates. You can find a sample that accompanies this blog post at &lt;a href="https://github.com/rwinch/angularjs-escaping-expression-sandbox"&gt;rwinch/angularjs-escaping-expression-sandbox&lt;/a&gt;.&lt;/p&gt;</content>
   </entry>
 </feed>

@@ -1,0 +1,78 @@
+package com.Pizzeria.business;
+
+import java.util.Collection;
+import java.util.List;
+
+import org.hibernate.SQLQuery;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.Pizzeria.models.Candidature;
+import com.Pizzeria.persistence.HibernateUtil;
+
+@Service
+public class DefaultServices implements Services {
+
+	 Session session;
+	
+	private SessionFactory sessionFactory;
+
+//	@Autowired
+	public DefaultServices(SessionFactory s) {
+		this.sessionFactory = s;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+	 this.sessionFactory = sessionFactory;
+	 }
+
+	public void Add(Candidature candidat) {
+
+		 session.beginTransaction();
+		
+		 session.save(candidat);
+		 session.getTransaction().commit();
+
+		 this.sessionFactory.getCurrentSession().createQuery("from Candidature").list();
+
+		System.out.println("ok2");
+
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//	@SuppressWarnings("unchecked")
+//	public List<Candidature> tailleTable(String nomTable) {
+//		Session session = HibernateUtil.getSessionFactory().openSession();
+//		session.beginTransaction();
+//		String s = "select * from " + nomTable;
+//		SQLQuery sql = session.createSQLQuery(s);
+//		sql.addEntity(Candidature.class);
+//
+//		List<Candidature> lis = sql.list();
+//		session.getTransaction().commit();
+//		return lis;
+//	}
+}

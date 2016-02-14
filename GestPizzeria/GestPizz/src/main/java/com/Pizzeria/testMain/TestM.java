@@ -3,7 +3,7 @@ package com.Pizzeria.testMain;
 import java.util.List;
 
 import com.Pizzeria.models.Candidature;
-import com.Pizzeria.persistence.PersonneManager;
+import com.Pizzeria.persistence.Manager;
 
 public class TestM {
 
@@ -13,7 +13,7 @@ public class TestM {
 		
 		Candidature c = new Candidature("sq", "d","dsq");
 		
-		PersonneManager pm = new PersonneManager();
+		Manager pm = new Manager();
 		pm.Add(c);
 
 	}

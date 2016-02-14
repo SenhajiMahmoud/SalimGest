@@ -1,0 +1,28 @@
+package com.Pizzeria.persistence;
+
+import org.hibernate.SessionFactory;
+
+import org.hibernate.cfg.Configuration;
+
+public class HibernateUtil {
+
+	public SessionFactory sessionFactory;
+	
+	public static SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	static {
+		try {
+			sessionFactory = new Configuration().configure().buildSessionFactory();
+		} catch (Exception ex) {
+			System.out.println("echoue sessionFactory" + ex);
+			throw new ExceptionInInitializerError();
+		}
+
+	}
+
+	public static void shutdown() {
+		getSessionFactory().close();
+	}
+}

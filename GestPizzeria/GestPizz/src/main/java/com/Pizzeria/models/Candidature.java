@@ -35,7 +35,6 @@ public class Candidature implements Serializable {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.adresse = adresse;
-		
 	}
 
 	public int getId() {
