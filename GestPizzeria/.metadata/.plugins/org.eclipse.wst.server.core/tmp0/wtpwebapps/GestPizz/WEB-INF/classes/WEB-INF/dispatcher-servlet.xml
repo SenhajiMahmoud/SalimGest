@@ -53,6 +53,7 @@
 			</props>
 		</property>
 	</bean>
+	
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
@@ -63,7 +64,8 @@
 		</property>
 	</bean>
 
-	 <tx:annotation-driven />
+	
+	<tx:annotation-driven />
 
 	<bean id="transactionManager"
 		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
