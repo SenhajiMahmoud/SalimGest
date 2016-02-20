@@ -6984,3 +6984,8 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2016-02-20 00:52:52,223 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
 2016-02-20 00:52:52,427 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-02-20 00:52:52,433 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
+2016-02-20 11:37:27,712 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 11:37:27,774 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-02-20 11:37:27,805 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-02-20 11:37:27,821 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 11:37:27,821 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
