@@ -6989,3 +6989,61 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2016-02-20 11:37:27,805 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
 2016-02-20 11:37:27,821 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-02-20 11:37:27,821 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
+2016-02-20 11:58:23,967 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 11:58:24,031 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-02-20 11:58:24,099 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-02-20 11:58:24,180 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 11:58:24,183 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
+2016-02-20 12:30:11,661 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 12:30:11,691 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-02-20 12:30:11,711 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-02-20 12:30:11,721 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 12:30:11,731 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
+2016-02-20 18:26:18,782 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 18:26:18,956 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-02-20 18:26:19,002 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-02-20 18:26:19,076 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 18:26:19,081 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
+2016-02-20 18:37:03,998 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.Pizzeria:GestPizz:0.0.1-SNAPSHOT @ C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\pom.xml.
+2016-02-20 18:37:11,001 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 18:37:11,015 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-20 18:37:11,026 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 18:37:11,032 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
+2016-02-20 18:37:11,034 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GestPizz
+2016-02-20 18:37:11,037 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GestPizz
+2016-02-20 18:37:11,065 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 18:37:15,380 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.Pizzeria:GestPizz:0.0.1-SNAPSHOT @ C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\pom.xml.
+2016-02-20 18:37:21,267 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 18:37:21,280 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-20 18:37:21,291 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 18:37:21,296 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
+2016-02-20 18:37:21,297 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GestPizz
+2016-02-20 18:37:21,298 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GestPizz
+2016-02-20 18:37:21,323 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-20 18:37:56,867 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-02-20 18:37:58,247 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.Pizzeria:GestPizz:0.0.1-SNAPSHOT @ C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\pom.xml.
+2016-02-20 18:38:05,133 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GestPizz/src/main/java
+2016-02-20 18:38:05,136 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /GestPizz/src/main/resources
+2016-02-20 18:38:05,138 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GestPizz/src/main/test
+2016-02-20 18:38:09,044 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for GestPizz
+2016-02-20 18:38:09,076 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 12 sec
+2016-02-20 18:48:57,969 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-02-20 18:49:02,431 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.Pizzeria:GestPizz:0.0.1-SNAPSHOT @ C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\pom.xml.
+2016-02-20 18:49:11,559 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GestPizz/src/main/java
+2016-02-20 18:49:11,561 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /GestPizz/src/main/resources
+2016-02-20 18:49:11,565 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GestPizz/src/main/test
+2016-02-20 18:49:15,980 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for GestPizz
+2016-02-20 18:49:16,000 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 18 sec
+2016-02-20 21:49:51,364 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz
+2016-02-20 21:49:51,392 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-02-21 12:32:02,861 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-21 12:32:02,903 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-02-21 12:32:02,943 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-21 12:32:02,947 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
+2016-02-21 12:32:02,965 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GestPizz
+2016-02-21 12:32:02,967 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GestPizz
+2016-02-21 12:32:03,050 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-21 17:59:02,087 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-21 17:59:02,153 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-02-21 17:59:02,202 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-21 17:59:02,213 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mahmoud\Desktop\salimProjectPizza\GestPizzeria\GestPizz\src\test\resources
